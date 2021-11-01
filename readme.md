@@ -2,4 +2,4 @@
 
 Task : Branch creation on master
 
-![Azure Link](http://project1historyofinternetharshronaknikita.eastus.azurecontainer.io/index.html)
+[Azure Link](http://project1historyofinternetharshronaknikita.eastus.azurecontainer.io/index.html)
