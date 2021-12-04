@@ -58,11 +58,12 @@
     .bg-text {
       background-color: rgb(0,0,0); /* Fallback color */
       background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+      box-sizing: border-box;
       color: white;
       font-weight: bold;
       border: 3px solid #f1f1f1;
       position: absolute;
-      top: 50%;
+      top: 65%;
       left: 50%;
       transform: translate(-50%, -50%);
       width:80%;
@@ -87,7 +88,7 @@
     }
 
   </style>
-  <title>True Story</title>
+  <title>Pylint</title>
 </head>
 
 <body>
@@ -110,14 +111,18 @@
 </div>
 
 <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
+
   <div class="container">
     <div class="row align-items-center position-relative">
+
+
       <div class="site-logo">
         <div class="logo">
-          <img src='Images/p.png' alt="python" width="120">
+          <img src='Images/p.png' alt="Internet connecting the world" width="100">
           <span class="text-primary">Python</span>
         </div>
       </div>
+
       <div class="col-12">
         <nav class="site-navigation text-right ml-auto " role="navigation">
           <ol class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
@@ -132,16 +137,28 @@
               </ol>
             </li>
             <li><a href="evolution.html" class="nav-link">Evolution</a></li>
-            <li><a href="future.html" class="nav-link">Future</a></li>
+            <li class="has-children">
+              <a href="future.html" class="nav-link">Future</a>
+              <ol class="dropdown arrow-top">
+                <li><a href="pylint.html" class="nav-link">Pylint</a></li>
+                <li><a href="oop.html" class="nav-link">OOP</a></li>
+                <li><a href="aaa.html" class="nav-link">AAA Testing</a></li>
+                <li><a href="cal.html" class="nav-link">Article</a></li>
+              </ol>
+            </li>
             <li><a href="developers.html" class="nav-link">Developers</a></li>
           </ol>
         </nav>
       </div>
 
+
       <div class="toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+
     </div>
   </div>
+
 </header>
+
 
 <br>
 <p>
@@ -158,17 +175,13 @@
       Checking the length of each line
       Checking that variable names are well-formed according to the project's coding standard
       Checking that declared interfaces are truly implemented.
-      It is also equipped with the Pyreverse module that allows UML diagrams to be generated from Python code.
     </div>
-
-<br>
 
 <div class="p-5 my-4 bg-transparent text-white rounded-3 info shadow-lg p-3 bg-body rounded">
   <br>
     <h4>Object Oriented Programming</h4>
-    <br>
     <div class="cont float-cont1" style="color:white">
-      <img src="Images/p3.png" alt="pylint" width=30 class="image" style="width: 30%">
+      <img src="Images/p3.png" alt="pylint" width=35 class="image" style="width: 35%">
       <div class="bg-text1">
        <h3>Class</h3>
       </div>
@@ -190,6 +203,42 @@
       <br>
       3. Identity: It gives a unique name to an object and enables one object to interact with other objects.
     </div>
+  <div class="bg-text1">
+  <h3>Factory Method – Python Design Patterns</h3>
+  </div>
+  <br><br>
+  Factory Method is a Creational Design Pattern that allows an interface or a class to create an object, but lets subclasses decide which class or object to instantiate. Using the Factory method, we have the best ways to create an object. Here, objects are created without exposing the logic to the client, and for creating the new type of object, the client uses the same common interface.
+
+  <div class="bg-text1">
+    <h3>Instantiation</h3>
+  </div>
+  <br><br><br>
+  Instantiating a class is creating a copy of the class which inherits all class variables and methods.
+
+  <div class="bg-text1">
+    <h3>Constructors in Python</h3>
+  </div>
+  <br><br><br>
+  Constructors are generally used for instantiating an object. The task of constructors is to initialize(assign values) to the data members of the class when an object of the class is created. In Python the __init__() method is called the constructor and is always called when an object is created.
+
+  <div class="bg-text1">
+    <h3>Fixture</h3>
+  </div>
+  <br><br><br>
+  Pytest Fixtures are used in python instead of classic xUnit style setup and teardown methods where a particular section of code is executed for each test case.
+
+  <div class="bg-text1">
+    <h3>Static Methods</h3>
+  </div>
+  <br><br><br>
+  static methods are the methods which are bound to the class rather than an object of the class and hence are called using the class name and not the objects of the class.
+
+  <div class="bg-text1">
+    <h3>Facade</h3>
+  </div>
+  <br><br><br>
+  Facade is a structural design pattern that provides a simplified (but limited) interface to a complex system of classes, library or framework.
+
 </div>
 
 </div>
@@ -197,9 +246,9 @@
 </div>
 </p>
 <div class="footer">
-  <p style="color: wheat;display: block; margin: auto;">© 2021 Copyright: Harsh Rajesh Damania, Ronak Hemant Baviskar, Nikita Ramesh Gaikwad</p>
+  <p style="color: wheat;display: block; margin: auto;">© 2021 Copyright: Nikita Ramesh Gaikwad</p>
   <h4 style="color: wheat;display: block; margin: auto;">Connecting the World Digitally !</h4>
-  <img src="Images/GitHub-icon.png" alt="github"><a href="https://github.com/hrd9/Project1HistoryofInternet" style="color: navajowhite"> GitHub</a>
+  <img src="Images/GitHub-icon.png" alt="github"><a href="https://github.com/NikitaGaikwad01/Project1HistoryofInternet/tree/project2_python" style="color: navajowhite"> GitHub</a>
   <img src="Images/w3c.png" alt="w3c" width="70"><a href="https://github.com/hrd9/Project1HistoryofInternet" style="color: navajowhite">W3C Validator</a>
 </div>
 
