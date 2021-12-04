@@ -1,5 +1,4 @@
-#IS601 Project 1 : History of the Internet
-
-Task : Branch creation on master
+#IS601 Project 2 
+Task : Article creation
 
 [Azure Link](http://project1historyofinternetharshronaknikita.eastus.azurecontainer.io/index.html)
